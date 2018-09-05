@@ -155,5 +155,9 @@ Web design development frameworks are as follows:
 
     Java Script (JS) is a scripting languages, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn&#39;t need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion. This allowing the pages to react to events, exhibit special effects, accept variable text, validate data, create cookies, detect a user&#39;s browser, etc.
 
+1.2.4 MATERIALIZE CSS
+
+** ** Materialize is basically a CSS framework which is used to create responsive websites. Materialize framework is basically built on Google's material design concept. Materialize framework is created with HTML, CSS and JavaScript, Anyone having the basic knowledge of HTML, CSS and JavaScript can learn easily. Materialize provides you ready made rich layouts, animations and many more powerful UI.
+
 
 
