@@ -110,3 +110,12 @@ Computer Science.
 
     We especially thanks to our parents and our friends for providing encouragement and giving us a great support during internship program.
 
+
+DECLARATION
+
+We declare that this project report or part of it was not a copy of a document done by any organization, university any other institute or a previous student project group at University of Computer Studies (Mandalay). But this project is referenced from the Wikipedia, Google, Internet or other sources.
+
+Project Details
+Project Title 	Who is Who in Myanmar
+Project ID 	GMIT Company Internship
+
