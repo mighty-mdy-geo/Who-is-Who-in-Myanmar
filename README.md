@@ -322,7 +322,22 @@ The system is implemented for only three sectors such as Politician, Business Le
 
 As our web design is responsive, the system can be implemented not only on PC but also on Mobile Phone. The system can search people from different sectors. Users can read the news about the current activity of famous people.
 
+References
 
+    https://www.codecademy.com/learn/learn-git
+    https://www.codecademy.com/learn/learn-the-command-line
+    https://github.com/mayeedwin/profile
+    https://vim-adventures.com
+    https://devcenter.heroku.com/
+    https://www.sqlalchemy.org/
+    http://flask.pocoo.org/docs/1.0/templating/
+    https://getmdl.io/
+    https://materializecss.com/
+    https://www.wikipedia.org/
+
+Our Website Link
+
+https://whoswhomm.herokuapp.com/
 
 
 
