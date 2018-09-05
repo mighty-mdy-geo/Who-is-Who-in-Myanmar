@@ -252,3 +252,16 @@ Facebook 			Text
 Bio 			Text 	
 Occupation 			VarChar 	30
 
+Table (3.2) Business Leader Table
+Column 	Constraint 	Default Value 	Data Value 	Length
+Id 	Primary Key 		Integer 	
+Name 			VarChar 	30
+Initial Name 			VarChar 	10
+Birth 			VarChar 	30
+Photo 			Text 	
+Facebook 			Text 	
+Bio 			Text 	
+Occupation 			VarChar 	30
+
+
+
