@@ -295,6 +295,12 @@ Content 			Text
 CHAPTER 4
 
 EVALUATION AND CONCLUSION
+4.1 Conclusion
+
+    The system provides simple and complete functions for users without difficulty and save their time.
+
+    For users, they can get information on knowledge whenever they want, that offers the exact needs or update information in a month and so on. User benefits would be brought using this system.
+
 
 
 
