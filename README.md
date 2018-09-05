@@ -48,3 +48,32 @@ Daw Hnin Yu Yu Win ________________________
 
 Project Supervisor Name Signature / Date
 
+
+**CHAPTER 1 INTRODUCTION **
+
+** ** 1.1 Introduction
+
+    1.2        Background of the System
+
+            1.2.1 HTML
+
+            1.2.2 CSS
+
+            1.2.3 JAVASCRIPT
+
+            1.2.4 MATERIALIZE CSS
+
+            1.2.5 MATERIAL DESIGN LITE
+
+            1.2.6 PYTHON
+
+            1.2.7 FLASK
+
+            1.2.8 SQL        ALCHEMY
+
+            1.2.9 GITHUB
+
+            1.2.10 HEROKU
+
+    1.3        Objective of the project
+
