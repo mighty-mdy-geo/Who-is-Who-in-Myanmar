@@ -88,7 +88,7 @@
         </div>
 
       </header>
-      <div class="mdl-layout__drawer">
+       <div class="mdl-layout__drawer">
         <span class="mdl-layout-title">WhosWhoMM</span>
         <nav class="mdl-navigation">
           <a class="mdl-navigation__link" href="home.html">
@@ -110,7 +110,7 @@
             <div class="row">
                     <div class="col s12">
 
-          <h3 style="margin-left: 8%;margin-bottom: 5%;">Celebrity</h3>
+          <h3 style="margin-left: 8%;margin-bottom: 5%;">Politician</h3>
 
             <style>
                 .demo-card-wide.mdl-card {
@@ -133,7 +133,8 @@
                   margin-bottom: 70%;
                 }
               </style>
-                       {% for person in cele %}
+                      {% for person in politician %}
+
                 <div class="demo-card-wide mdl-card mdl-shadow--2dp">
                       <div class="mdl-card__title" style=background:url("{{person.photo}}")>
                       </div>
@@ -144,7 +145,7 @@
                      {{person.occupation}}
                       </div>
                       <div class="mdl-card__actions mdl-card--border">
-<a href="{{ url_for('profile',initialname=person.initialname) }}" target="" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="color:rgb(244,61,61);">
+                    <a href="{{ url_for('profile',initialname=person.initialname) }}" target="" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="color:rgb(244,61,61);">
                         View Profile
                       </a>
                       </div>
@@ -152,15 +153,16 @@
 
                  {% endfor %}
 
+                        </div>
 
 
-                    </div>
-               <div class="col s12">
-                        <footer class="mdl-mega-footer">
+
+                        <div class="col s12">
+                         <footer class="mdl-mega-footer">
 
                             <div class="mdl-mega-footer--bottom-section">
                               <div class="mdl-logo">
-                                Who is Who in Myanmar
+                                Who is Who in Myanmar.
                               </div>
 
                             </div>

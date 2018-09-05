@@ -252,3 +252,93 @@ Facebook 			Text
 Bio 			Text 	
 Occupation 			VarChar 	30
 
+Table (3.2) Business Leader Table
+Column 	Constraint 	Default Value 	Data Value 	Length
+Id 	Primary Key 		Integer 	
+Name 			VarChar 	30
+Initial Name 			VarChar 	10
+Birth 			VarChar 	30
+Photo 			Text 	
+Facebook 			Text 	
+Bio 			Text 	
+Occupation 			VarChar 	30
+
+Table (3.3) Celebrity Table
+Column 	Constraint 	Default Value 	Data Type 	Length
+Id 	Primary Key 		Integer 	
+Name 			VarChar 	30
+Initial Name 			VarChar 	10
+Birth 			VarChar 	30
+Occupation 			VarChar 	30
+Photo 			Text 	
+Facebook 			Text 	
+Bio 			Text 	
+
+Table (3.4) People Table
+Column 	Constraint 	Default Value 	Data Type 	Length
+Id 	Primary Key 		Integer 	
+Name 			VarChar 	30
+Initial Name 			VarChar 	10
+Birth 			VarChar 	30
+Occupation 			Text 	
+Photo 			Text 	
+Facebook 			Text 	
+Bio 			Text 	
+
+Table (3.5) News Table
+Column 	Constraints 	Default Value 	Data Type 	Length
+Id 	Primary Key 		Integer 	
+Photo 			Text 	
+Link 			Text 	
+Content 			Text
+
+CHAPTER 4
+
+EVALUATION AND CONCLUSION
+4.1 Conclusion
+
+    The system provides simple and complete functions for users without difficulty and save their time.
+
+    For users, they can get information on knowledge whenever they want, that offers the exact needs or update information in a month and so on. User benefits would be brought using this system.
+
+4.2 Advantages of the project
+
+The proposed system offers the following advantages:
+
+    It provides "faster and better" service to users.
+    Finding information in a concise, easy way;
+    Learning and finding new things never heard of before and much more.
+    Provide an overview of user's topic.
+
+4.3 Disadvantage of the project
+
+    This website cannot work if there is no internet access.
+
+    4.4 Limitation of the project
+
+The system is implemented for only three sectors such as Politician, Business Leader and Celebrity. So, the system is not available for other sectors such as Author, Social Influencer, etc. The system cannot select for sectors in searching of people.
+
+4.5 Further extension of the project
+
+As our web design is responsive, the system can be implemented not only on PC but also on Mobile Phone. The system can search people from different sectors. Users can read the news about the current activity of famous people.
+
+References
+
+    https://www.codecademy.com/learn/learn-git
+    https://www.codecademy.com/learn/learn-the-command-line
+    https://github.com/mayeedwin/profile
+    https://vim-adventures.com
+    https://devcenter.heroku.com/
+    https://www.sqlalchemy.org/
+    http://flask.pocoo.org/docs/1.0/templating/
+    https://getmdl.io/
+    https://materializecss.com/
+    https://www.wikipedia.org/
+
+Our Website Link
+
+https://whoswhomm.herokuapp.com/
+
+
+
+
