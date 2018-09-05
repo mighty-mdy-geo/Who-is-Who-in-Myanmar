@@ -143,4 +143,97 @@ Web design development frameworks are as follows:
     MATERIAL DESIGN LITE
 
 
+1.2.1** HTML**
+
+    HTML – Hyper Text Markup Language – is the language for website creators creating web pages. Strictly speaking, it&#39;s not the only language webmasters should know – far from it – but definitely the most important one. Without knowing it (or XHTML, its variation) nobody can create as much as one webpage looking even slightly prettier than a page of unformatted plain text. The WWW as we know it would never exist without the invention of HTML.
+
+1.2.2 CSS
+
+    **C** ascading **S** tyle **S** heets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML.
+
+1.2.3 JAVA SCRIPT
+
+    Java Script (JS) is a scripting languages, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn&#39;t need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion. This allowing the pages to react to events, exhibit special effects, accept variable text, validate data, create cookies, detect a user&#39;s browser, etc.
+
+1.2.4 MATERIALIZE CSS
+
+** ** Materialize is basically a CSS framework which is used to create responsive websites. Materialize framework is basically built on Google's material design concept. Materialize framework is created with HTML, CSS and JavaScript, Anyone having the basic knowledge of HTML, CSS and JavaScript can learn easily. Materialize provides you ready made rich layouts, animations and many more powerful UI.
+
+1.2.5 MATERIAL DESIGN LITE
+
+** ** Material Design Lite is built to provide a lightweight and basic set of Material Design components and templates for web sites. The project does not intend to provide structures to create all possible UX needs, but to provide a low-friction Material Design implementation you can build on.
+
+1.2.6 PYTHON
+
+    Python is an interpreted, object-oriented, high-level programming language with dynamic semantics. Its high-level built in data structures, combined with dynamic typing and dynamic binding, make it very attractive for Rapid Application Development, as well as for use as a scripting or glue language to connect existing components together. Python&#39;s simple, easy to learn syntax emphasizes readability and therefore reduces the cost of program maintenance. Python supports modules and packages, which encourages program modularity and code reuse. The Python interpreter and the extensive standard library are available in source or binary form without charge for all major platforms, and can be freely distributed.
+
+1.2.7 FLASK
+
+** ** Flask is a micro web framework written in Python. It is classified as a micro framework because it does not require particular tools or libraries. Applications that use the Flask framework include Pinterest, LinkedIn, and the community web page for Flask itself.
+
+	1.2.8 SQL ALCHEMY
+
+** ** SQL Alchemy is the Python SQLite toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQLite. It provides a full suite of well-known enterprise-level persistence patterns, designed for efficient and high-performing database access.
+
+1.2.9 GIT - HUB
+
+** ** Git-Hub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. It is simply a software that helps you manage your source code. That means each change that you make to a source code is recorded in its history. So it can also be called as Source Code management system.
+
+1.2.10 HEROKU
+
+** ** Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches.
+
+1.3 Objectives of the Project
+
+• To search easily and quickly the user's desire data.
+
+• To know the actions and steps of famous person.
+
+• To learn about the famous person.
+
+• To decrease search time.
+
+• To help the people who want to know the details of Myanmar famous people.
+
+• To acquire knowledge.
+
+CHAPTER 2
+
+METHDOLOGY
+
+** 2.1 Requirement Analysis**
+
+The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from Wikipedia.
+
+2.2 Software Selection
+
+Chosen Programming Language
+
+I would like to use Python as a programming language by using Flask framework in my project because Python is a favorite among many developers for its strong emphasis on readability and efficiency, especially when compared to other languages like Java, PHP, or C++.
+
+    Python is Easy to learn.
+    Python lets you build more function with fewer lines of code.
+    Python provides a stepping stone to learning other code.
+    Python is perfect for building prototypes.
+    Python web development is flexible, there are several robust python implementations integrated with other programming languages.
+    Low cost web development tools.
+    Python is open source platform built by thousands of contributes from all corners of the world.
+
+2.3 Software Requirements
+
+    Vim
+    Pycharm
+    Heroku
+    Python with Flask
+    Git Hub
+
+2.4 Hardware Requirements
+
+    Personal Computer
+    Mobile Phone
+    Internet Access
+
+    CHAPTER 3
+
+PROJECT DEVELOPMENT
 
