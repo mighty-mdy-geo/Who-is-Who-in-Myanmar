@@ -204,3 +204,18 @@ METHDOLOGY
 ** 2.1 Requirement Analysis**
 
 The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from Wikipedia.
+
+2.2 Software Selection
+
+Chosen Programming Language
+
+I would like to use Python as a programming language by using Flask framework in my project because Python is a favorite among many developers for its strong emphasis on readability and efficiency, especially when compared to other languages like Java, PHP, or C++.
+
+    Python is Easy to learn.
+    Python lets you build more function with fewer lines of code.
+    Python provides a stepping stone to learning other code.
+    Python is perfect for building prototypes.
+    Python web development is flexible, there are several robust python implementations integrated with other programming languages.
+    Low cost web development tools.
+    Python is open source platform built by thousands of contributes from all corners of the world.
+
