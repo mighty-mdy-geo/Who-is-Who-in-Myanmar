@@ -197,4 +197,10 @@ Web design development frameworks are as follows:
 
 • To acquire knowledge.
 
+CHAPTER 2
 
+METHDOLOGY
+
+** 2.1 Requirement Analysis**
+
+The description of the services and constraints are the requirements for the system. Requirement Analysis is the process of deriving the system requirements through observation of existing system. We get all information of data we use in this project from Wikipedia.
