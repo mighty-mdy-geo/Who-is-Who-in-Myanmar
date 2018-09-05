@@ -301,6 +301,19 @@ EVALUATION AND CONCLUSION
 
     For users, they can get information on knowledge whenever they want, that offers the exact needs or update information in a month and so on. User benefits would be brought using this system.
 
+4.2 Advantages of the project
+
+The proposed system offers the following advantages:
+
+    It provides "faster and better" service to users.
+    Finding information in a concise, easy way;
+    Learning and finding new things never heard of before and much more.
+    Provide an overview of user's topic.
+
+4.3 Disadvantage of the project
+
+    This website cannot work if there is no internet access.
+
 
 
 
