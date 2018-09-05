@@ -133,3 +133,25 @@
                   margin-bottom: 70%;
                 }
               </style>
+                       {% for person in cele %}
+                <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                      <div class="mdl-card__title" style=background:url("{{person.photo}}")>
+                      </div>
+                      <div style="font-size:20px;margin-left:20px;margin-top:20px;">
+                       {{person.name}}
+                    </div>
+                       <div class="mdl-card__supporting-text" style="line-height:25px">
+                     {{person.occupation}}
+                      </div>
+                      <div class="mdl-card__actions mdl-card--border">
+<a href="{{ url_for('profile',initialname=person.initialname) }}" target="" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="color:rgb(244,61,61);">
+                        View Profile
+                      </a>
+                      </div>
+                    </div>
+
+                 {% endfor %}
+
+
+
+                    </div>
