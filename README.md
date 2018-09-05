@@ -143,4 +143,9 @@ Web design development frameworks are as follows:
     MATERIAL DESIGN LITE
 
 
+1.2.1** HTML**
+
+    HTML – Hyper Text Markup Language – is the language for website creators creating web pages. Strictly speaking, it&#39;s not the only language webmasters should know – far from it – but definitely the most important one. Without knowing it (or XHTML, its variation) nobody can create as much as one webpage looking even slightly prettier than a page of unformatted plain text. The WWW as we know it would never exist without the invention of HTML.
+
+
 
