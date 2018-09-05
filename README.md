@@ -285,5 +285,10 @@ Photo 			Text
 Facebook 			Text 	
 Bio 			Text 	
 
-
+Table (3.5) News Table
+Column 	Constraints 	Default Value 	Data Type 	Length
+Id 	Primary Key 		Integer 	
+Photo 			Text 	
+Link 			Text 	
+Content 			Text
 
