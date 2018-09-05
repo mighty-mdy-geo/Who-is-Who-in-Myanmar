@@ -314,6 +314,12 @@ The proposed system offers the following advantages:
 
     This website cannot work if there is no internet access.
 
+    4.4 Limitation of the project
+
+The system is implemented for only three sectors such as Politician, Business Leader and Celebrity. So, the system is not available for other sectors such as Author, Social Influencer, etc. The system cannot select for sectors in searching of people.
+
+
+
 
 
 
