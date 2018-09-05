@@ -59,6 +59,83 @@
 
     
   </head>
-<body>
+
+<body class="mdl-demo mdl-color--grey-100 mdl-color-text--grey-700 mdl-base">
+    <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
+      <header class="mdl-layout__header mdl-layout__header--scroll mdl-color--primary">
+        
+        <div class="mdl-layout--large-screen-only mdl-layout__header-row">
+           <span class="mdl-layout-title">Who is Who in Myanmar</span>
+           <form action="/" method="POST" style="margin-left:55%;">
+            <div class="mdl-textfield mdl-js-textfield  mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" name="search" id="sample3">
+             <label class="mdl-textfield__label" for="sample3">Search</label>
+          </div>
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab" name="submit">
+              <i class="material-icons">search</i>
+           </button>
+          </form>
+        </div>
+        <div class="mdl-layout--small-screen-only mdl-layout__header-row">
+           <form action="/" method="POST">
+            <div class="mdl-textfield mdl-js-textfield  mdl-textfield--floating-label">
+            <input class="mdl-textfield__input" type="text" name="search" id="sample3" style="width:250px;">
+             <label class="mdl-textfield__label" for="sample3">Search</label>
+          </div>
+            <button class="mdl-button mdl-js-button mdl-button--fab mdl-button--mini-fab" name="submit" style="margin-left:300px;">
+              <i class="material-icons">search</i>
+           </button>
+          </form>
+        </div>
+
+      </header>
+
+      <div class="mdl-layout__drawer">
+        <span class="mdl-layout-title">WhosWhoMM</span>
+        <nav class="mdl-navigation">
+          <a class="mdl-navigation__link" href="home.html">
+             <i class="material-icons" style="padding-right:15px;">home</i>Home</a>
+          <a class="mdl-navigation__link" href="politician.html">
+             <i class="material-icons" style="padding-right:15px;">people</i>Politician</a>
+          <a class="mdl-navigation__link" href="businessleader.html">
+             <i class="material-icons" style="padding-right:15px;">people</i>Business Leader</a>
+          <a class="mdl-navigation__link" href="celebrity.html">
+             <i class="material-icons" style="padding-right:15px;">people</i>Celebrity</a>
+          <a class="mdl-navigation__link" href="about.html">
+             <i class="material-icons" style="padding-right:15px;">info</i>About</a>
+        </nav>
+        </div>
+
+        <main class="mdl-layout__content">
+          <div class="mdl-layout__tab-panel is-active">
+
+            <h3 style="margin-left:5%;">Who is Who in Myanmar 2018</h3>
+          
+
+          <!-- Image card -->
+
+
+        
+          {% for person in people %}    
+
+            
+     <div class="col s12 m7">
+    <div class="card horizontal" style="margin:5%">
+      <div class="card-image">
+        <img src="{{person.photo}}" style="width:290px;min-height:160px;">
+      </div>
+      <div class="card-stacked">
+        <div class="card-content">
+          <h6>{{person.content}}</h6>
+        </div>
+        <div class="card-action">
+          <a href="{{person.link}}" target="_blank" style="color:rgb(244,61,61);">Read More</a>
+        </div>
+      </div>
+    </div>
+  </div>
+             {% endfor %}
+        </div>
+        </main>
 </body>
 </html>
