@@ -183,4 +183,18 @@ Web design development frameworks are as follows:
 
 ** ** Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches.
 
+1.3 Objectives of the Project
+
+• To search easily and quickly the user's desire data.
+
+• To know the actions and steps of famous person.
+
+• To learn about the famous person.
+
+• To decrease search time.
+
+• To help the people who want to know the details of Myanmar famous people.
+
+• To acquire knowledge.
+
 
