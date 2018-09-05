@@ -179,5 +179,8 @@ Web design development frameworks are as follows:
 
 ** ** Git-Hub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. It is simply a software that helps you manage your source code. That means each change that you make to a source code is recorded in its history. So it can also be called as Source Code management system.
 
+1.2.10 HEROKU
+
+** ** Heroku is a cloud platform that lets companies build, deliver, monitor and scale apps — we're the fastest way to go from idea to URL, bypassing all those infrastructure headaches.
 
 
