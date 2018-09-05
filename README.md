@@ -159,5 +159,9 @@ Web design development frameworks are as follows:
 
 ** ** Materialize is basically a CSS framework which is used to create responsive websites. Materialize framework is basically built on Google's material design concept. Materialize framework is created with HTML, CSS and JavaScript, Anyone having the basic knowledge of HTML, CSS and JavaScript can learn easily. Materialize provides you ready made rich layouts, animations and many more powerful UI.
 
+1.2.5 MATERIAL DESIGN LITE
+
+** ** Material Design Lite is built to provide a lightweight and basic set of Material Design components and templates for web sites. The project does not intend to provide structures to create all possible UX needs, but to provide a low-friction Material Design implementation you can build on.
+
 
 
