@@ -115,6 +115,28 @@
                         <h3 style="margin-left: 8%;margin-bottom: 5%;">Result</h3>
                         {% endif %}
 
+                        <style>
+                            .demo-card-wide.mdl-card {
+                              width: 300px;
+                              margin-left: 8%;
+                              float: left;
+                              margin-bottom: 5%;
+                            }
+                            .demo-card-wide > .mdl-card__title {
+                              color: #fff;
+                              height: 176px;
+                            }
+                            .demo-card-wide > .mdl-card__menu {
+                              color: #fff;
+                            }
+                            .c{
+                              clear: both;
+                            }
+                            .b{
+                              margin-bottom: 70%;
+                            }
+                        </style>
+
                         
                           {% if results %}
                             {% for result in results %}
