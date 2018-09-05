@@ -318,6 +318,10 @@ The proposed system offers the following advantages:
 
 The system is implemented for only three sectors such as Politician, Business Leader and Celebrity. So, the system is not available for other sectors such as Author, Social Influencer, etc. The system cannot select for sectors in searching of people.
 
+4.5 Further extension of the project
+
+As our web design is responsive, the system can be implemented not only on PC but also on Mobile Phone. The system can search people from different sectors. Users can read the news about the current activity of famous people.
+
 
 
 
