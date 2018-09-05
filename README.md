@@ -171,5 +171,13 @@ Web design development frameworks are as follows:
 
 ** ** Flask is a micro web framework written in Python. It is classified as a micro framework because it does not require particular tools or libraries. Applications that use the Flask framework include Pinterest, LinkedIn, and the community web page for Flask itself.
 
+	1.2.8 SQL ALCHEMY
+
+** ** SQL Alchemy is the Python SQLite toolkit and Object Relational Mapper that gives application developers the full power and flexibility of SQLite. It provides a full suite of well-known enterprise-level persistence patterns, designed for efficient and high-performing database access.
+
+1.2.9 GIT - HUB
+
+** ** Git-Hub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere. It is simply a software that helps you manage your source code. That means each change that you make to a source code is recorded in its history. So it can also be called as Source Code management system.
+
 
 
