@@ -77,3 +77,13 @@ Project Supervisor Name Signature / Date
 
     1.3        Objective of the project
 
+
+
+    ABSTRACT
+
+This project will present that shows about famous people who lives in Myanmar. Users can get easily information on their fingertips. Who is Who in Myanmar is a type of only information page that helps to provide the details information of famous people in Myanmar. They have special features like unusual standard of living or special skills that are not found in common people. It can be said that in society that they are different from the common people. Among of them, this project shows such as Politician ( Eg: Daw Aung San Suu Kyi), Business Leader (Eg: U Khin Shwe), Celebrity (Eg: Hlwan Paing).
+
+** ** To form our app design, we had to take some templates such as Material Design Lite (MDL) and Materialize CSS. And then coding and design were merged into a useful app.
+
+** ** The part of documentation is to show how our app had worked step by steps. Finally,Who is Who in Myanmar is released as a link for users to be used easily.
+
