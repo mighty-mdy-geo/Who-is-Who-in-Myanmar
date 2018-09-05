@@ -119,3 +119,15 @@ Project Details
 Project Title 	Who is Who in Myanmar
 Project ID 	GMIT Company Internship
 
+
+1.1 Introduction
+
+    Nowadays, mobile phones are very useful for everyone to communicate with each other. No long distance charges have applications like games and calendar to help organize schedules. Not only adults but also children use mobile phones. So they are becoming an important part of our everyday life. Nowadays, reducing the men&#39;s physical effort with the help of latest devices and technologies is on demand. Besides, it is easier to find information and facts on the Internet than to find information using newspapers, journals etc.
+
+    Everyone has at least one idol. We can find easily about the famous people who we want to know in this app. This is divided into three parts. They are Politician, Business Leader and Celebrity.
+
+    The project named &quot;Who is Who in Myanmar&quot; is aimed to find information about the famous people who you want to find. You can easily search birth date, address, occupation and biography etc.., in this app.
+
+    Our project is implemented by Python with Flask framework.
+
+
