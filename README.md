@@ -274,5 +274,16 @@ Photo 			Text
 Facebook 			Text 	
 Bio 			Text 	
 
+Table (3.4) People Table
+Column 	Constraint 	Default Value 	Data Type 	Length
+Id 	Primary Key 		Integer 	
+Name 			VarChar 	30
+Initial Name 			VarChar 	10
+Birth 			VarChar 	30
+Occupation 			Text 	
+Photo 			Text 	
+Facebook 			Text 	
+Bio 			Text 	
+
 
 
