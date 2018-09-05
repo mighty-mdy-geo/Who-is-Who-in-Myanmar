@@ -237,3 +237,18 @@ I would like to use Python as a programming language by using Flask framework in
 
 PROJECT DEVELOPMENT
 
+3.2.1 Database Implementation
+
+Database Tables
+
+Table (3.1) Politician Table
+Column 	Constraint 	Default Value 	Data Type 	Length
+Id 	Primary Key 		Integer 	
+Name 			VarChar 	30
+Initial Name 			VarChar 	10
+Birth 			VarChar 	30
+Photo 			Text 	
+Facebook 			Text 	
+Bio 			Text 	
+Occupation 			VarChar 	30
+
