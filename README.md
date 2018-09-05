@@ -87,3 +87,26 @@ This project will present that shows about famous people who lives in Myanmar. U
 
 ** ** The part of documentation is to show how our app had worked step by steps. Finally,Who is Who in Myanmar is released as a link for users to be used easily.
 
+
+ACKNOWLEDGEMENT
+
+    First of all, we would like to express our very great appreciation to U Kyaw Zwa Soe,
+
+Rector of UCS (Mdy).
+
+    We also greatly thanks to Dr. San San Tint, Pro-Rector of UCS (Mdy).
+
+    We sincerely thanks to our teacher Dr. Mya Thida Kyaw, Head of Faculty of
+
+Information Science.
+
+    And we sincerely thanks to our teacher Dr. Aye Aye Chaw, Head of Faculty of
+
+Computer Science.
+
+    We also deeply thanks to our director U Ravi Chhabra, CEO of GMIT, for his patient training to gain experience in modern software development and trust to give us.
+
+    And then greatly thanks to our supervisor Daw Hnin Yu Yu Win, for her valuable guidance and patient supervisor, presentation and correctness of the project.
+
+    We especially thanks to our parents and our friends for providing encouragement and giving us a great support during internship program.
+
