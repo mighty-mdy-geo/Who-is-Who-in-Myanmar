@@ -131,3 +131,16 @@ Project ID 	GMIT Company Internship
     Our project is implemented by Python with Flask framework.
 
 
+1.2 Background of the System
+
+We use Git-Hub as a version control system to get good communication between designers and developers. We use SQL Alchemy as a Python SQLite toolkit to get the full power and flexibility of SQLite. Our Web Application is implemented by using web design development frameworks, Python, Flask, SQL Alchemy and Heroku.
+Web design development frameworks are as follows:
+
+    HTML
+    CSS
+    JAVASCRIPT
+    MATERIALIZE CSS
+    MATERIAL DESIGN LITE
+
+
+
