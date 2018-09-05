@@ -219,3 +219,17 @@ I would like to use Python as a programming language by using Flask framework in
     Low cost web development tools.
     Python is open source platform built by thousands of contributes from all corners of the world.
 
+2.3 Software Requirements
+
+    Vim
+    Pycharm
+    Heroku
+    Python with Flask
+    Git Hub
+
+2.4 Hardware Requirements
+
+    Personal Computer
+    Mobile Phone
+    Internet Access
+
