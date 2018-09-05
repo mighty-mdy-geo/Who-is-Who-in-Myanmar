@@ -104,8 +104,46 @@
           <a class="mdl-navigation__link" href="about.html">
              <i class="material-icons" style="padding-right:15px;">info</i>About</a>
         </nav>
-        </div>
-        
+        </div>       
+
+         <main class="mdl-layout__content">
+
+            <div class="mdl-layout__tab-panel is-active">
+                <div class="row">
+                    <div class="col s12">
+                        {% if results %}
+                        <h3 style="margin-left: 8%;margin-bottom: 5%;">Result</h3>
+                        {% endif %}
+
+                        
+                          {% if results %}
+                            {% for result in results %}
+                            <div class="demo-card-wide mdl-card mdl-shadow--2dp">
+                                  <div class="mdl-card__title" style=background:url("{{result.photo}}")>
+                                  </div>
+                                  <div style="font-size:20px;margin-left:20px;margin-top:20px;">
+                                   {{result.name}}
+                                </div>
+                                   <div class="mdl-card__supporting-text" style="line-height:25px">
+                                  {{result.occupation}}
+                                  </div>
+                                  <div class="mdl-card__actions mdl-card--border">
+                                <a href="{{ url_for('profile',initialname=result.initialname) }}" target="" class="mdl-button mdl-button--colored mdl-js-button mdl-js-ripple-effect" style="color:rgb(244,61,61);">
+                                    View Profile
+                                  </a>
+                                  </div>
+                                </div>
+                              
+                             {% endfor %}
+                             {% else %}
+                             <h3 class="center-align"> Content Not Found</h3>
+
+                              {% endif %}
+
+                            </div>
+
+                    </div>
+                </main>
     </div>
 
     </body>
