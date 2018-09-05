@@ -151,5 +151,9 @@ Web design development frameworks are as follows:
 
     **C** ascading **S** tyle **S** heets, fondly referred to as CSS, is a simple design language intended to simplify the process of making web pages presentable.CSS is easy to learn and understand but it provides powerful control over the presentation of an HTML document. Most commonly, CSS is combined with the markup languages HTML or XHTML.
 
+1.2.3 JAVA SCRIPT
+
+    Java Script (JS) is a scripting languages, primarily used on the Web. It is used to enhance HTML pages and is commonly found embedded in HTML code. JavaScript is an interpreted language. Thus, it doesn&#39;t need to be compiled. JavaScript renders web pages in an interactive and dynamic fashion. This allowing the pages to react to events, exhibit special effects, accept variable text, validate data, create cookies, detect a user&#39;s browser, etc.
+
 
 
