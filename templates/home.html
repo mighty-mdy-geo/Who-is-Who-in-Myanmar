@@ -119,23 +119,34 @@
           {% for person in people %}    
 
             
-     <div class="col s12 m7">
-    <div class="card horizontal" style="margin:5%">
-      <div class="card-image">
-        <img src="{{person.photo}}" style="width:290px;min-height:160px;">
-      </div>
-      <div class="card-stacked">
-        <div class="card-content">
-          <h6>{{person.content}}</h6>
-        </div>
-        <div class="card-action">
-          <a href="{{person.link}}" target="_blank" style="color:rgb(244,61,61);">Read More</a>
-        </div>
-      </div>
+    <div class="col s12 m7">
+		    <div class="card horizontal" style="margin:5%">
+		      <div class="card-image">
+		        <img src="{{person.photo}}" style="width:290px;min-height:160px;">
+		      </div>
+		      <div class="card-stacked">
+		        <div class="card-content">
+		          <h6>{{person.content}}</h6>
+		        </div>
+		        <div class="card-action">
+		          <a href="{{person.link}}" target="_blank" style="color:rgb(244,61,61);">Read More</a>
+		        </div>
+		      </div>
+		    </div>
+		  </div>
+          {% endfor %}
     </div>
-  </div>
-             {% endfor %}
-        </div>
+
+      <footer class="mdl-mega-footer">
+                            
+         <div class="mdl-mega-footer--bottom-section">
+                <div class="mdl-logo">
+                    Who is Who in Myanmar.
+                </div>
+                              
+         </div>
+        </footer>            
+
         </main>
 </body>
 </html>
