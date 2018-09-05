@@ -111,11 +111,30 @@
 
                 <div class="mdl-layout__tab-panel is-active">
                       <!-- Image card -->
-                        <h3 style="margin-left:2%;">Profile</h3>
+                    <h3 style="margin-left:2%;">Profile</h3>
+                        <div class="card-panel" style="width:98%;margin-left: 1%;margin-right: 1%;">
+                             <div class="col s12 m7">
+                            <div class="demo-card-image mdl-card mdl-shadow--2dp" style=background:url("{{person.photo}}")>
+                            </div>
+                            </div>
+                                  
+                                  <div>
+                                    <h5>{{person.name}}</h5>
+                                    <p>{{person.occupation}}</p>
+                                    <p>Born in {{person.birth}}</p>
+                                    {% if person.facebook %}
+                                      <p>Facebook: <a href="{{person.facebook}}" target="_blank" style="color:rgb(244,61,61);">{{person.name}}</a></p>
+                                    {% endif %}
+                                  </div>
+                          <div>
+                            <p>
+                             {{person.bio|safe}}
+                            </p>
+                          </div>
+                        </div>
+                    </div>
 
-
-                </div>
-        </main>
+    </main>
 
 
 
