@@ -54,6 +54,10 @@ def profile(initialname):
         person = People.query.filter_by(initialname=initialname).first_or_404()
         return render_template("profile.html",person=person)
 
+@app.route('/result.html',methods=['POST','GET'])
+def result():
+	return render_template("result.html")
+
 
 class Politician(db.Model):
 
