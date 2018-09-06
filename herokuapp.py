@@ -81,6 +81,20 @@ class People(db.Model):
 	def __repr__(self):
 		return '<People %r>' % self.name
 
+class News(db.Model):
+
+	id = db.Column(db.Integer,primary_key=True)
+	photo = db.Column(db.Text,nullable=False)
+	content = db.Column(db.Text,nullable=True)
+	link = db.Column(db.Text,nullable=True)
+
+
+	def __init__(self,*args,**kwargs):
+		super(News,self).__init__(*args,**kwargs)
+
+	def __repr__(self):
+		return '<News %r>' % self.id
+
 
 
 if __name__ == '__main__':
