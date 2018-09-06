@@ -13,6 +13,17 @@ db = SQLAlchemy(app)
 
 search_name = ""
 
+@app.route('/',methods=['POST','GET'])
+def home():
+	people = News.query.all()
+	
+	if request.method == 'POST':
+		search = request.form['search']
+		names = People.query.order_by(People.name).all()
+		results = People.query.filter(People.name.like('%' + search + '%')).all()
+		return render_template("result.html",results = results)
+	return render_template("home.html",people=people)
+
 class Politician(db.Model):
 
 	id = db.Column(db.Integer,primary_key=True)
@@ -94,8 +105,6 @@ class News(db.Model):
 
 	def __repr__(self):
 		return '<News %r>' % self.id
-
-
 
 if __name__ == '__main__':
     app.run(debug=True)
