@@ -48,6 +48,12 @@ def celebrity():
 def about():
     return render_template("about.html")
 
+@app.route('/profile/<initialname>')
+def profile(initialname):
+        
+        person = People.query.filter_by(initialname=initialname).first_or_404()
+        return render_template("profile.html",person=person)
+
 
 class Politician(db.Model):
 
