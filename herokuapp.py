@@ -13,6 +13,22 @@ db = SQLAlchemy(app)
 
 search_name = ""
 
+class Politician(db.Model):
+
+	id = db.Column(db.Integer,primary_key=True)
+	name = db.Column(db.String(30),nullable=False)
+	initialname=db.Column(db.String(10),nullable=False)
+	birth = db.Column(db.String(30),nullable=False)
+	occupation = db.Column(db.String(30),nullable=False)
+	photo = db.Column(db.Text,nullable=False)
+	facebook = db.Column(db.Text,nullable=False)
+	bio = db.Column(db.Text,nullable=True)
+
+	def __init__(self,*args,**kwargs):
+		super(Politician,self).__init__(*args,**kwargs)
+
+	def __repr__(self):
+		return '<Politician %r>' % self.name
 
 
 
