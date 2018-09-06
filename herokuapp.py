@@ -44,6 +44,10 @@ def celebrity():
     cele = Celebrity.query.all()
     return render_template("celebrity.html",cele=cele)
 
+@app.route('/about.html')
+def about():
+    return render_template("about.html")
+
 
 class Politician(db.Model):
 
