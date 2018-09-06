@@ -29,6 +29,11 @@ def homepg():
     people = News.query.all()
     return render_template("home.html",people=people)
 
+@app.route('/politician.html',methods=['POST','GET'])
+def politician():
+	politician = Politician.query.all()
+	return render_template("politician.html",politician=politician)
+
 class Politician(db.Model):
 
 	id = db.Column(db.Integer,primary_key=True)
