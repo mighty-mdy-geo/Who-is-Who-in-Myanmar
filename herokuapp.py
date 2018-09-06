@@ -39,6 +39,12 @@ def business():
     business = BusinessLeader.query.all()
     return render_template("businessleader.html",business=business)
 
+@app.route('/celebrity.html',methods=['POST','GET'])
+def celebrity():
+    cele = Celebrity.query.all()
+    return render_template("celebrity.html",cele=cele)
+
+
 class Politician(db.Model):
 
 	id = db.Column(db.Integer,primary_key=True)
