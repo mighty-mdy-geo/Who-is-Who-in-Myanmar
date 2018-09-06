@@ -47,6 +47,23 @@ class BusinessLeader(db.Model):
 	def __repr__(self):
 		return '<BusinessLeader %r>' % self.name
 
+class Celebrity(db.Model):
+
+	id = db.Column(db.Integer,primary_key=True)
+	name = db.Column(db.String(30),nullable=False)
+	initialname=db.Column(db.String(10),nullable=False)
+	birth = db.Column(db.String(30),nullable=False)
+	occupation = db.Column(db.String(30),nullable=False)
+	photo = db.Column(db.Text,nullable=False)
+	facebook = db.Column(db.Text,nullable=False)
+	bio = db.Column(db.Text,nullable=True)
+
+	def __init__(self,*args,**kwargs):
+		super(Celebrity,self).__init__(*args,**kwargs)
+
+	def __repr__(self):
+		return '<Celebrity %r>' % self.name
+
 
 
 if __name__ == '__main__':
